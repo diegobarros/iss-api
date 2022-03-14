@@ -5,7 +5,7 @@ const API_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 const TILES_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 const ATRIBUICAO_COPYRIGHT = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
-const MAPA_ISS = L.map('mapa-iss').setView([0, 0], 1);
+const MAPA_ISS = L.map('mapa-iss').setView([0, 0], 2);
 const MARCADOR = L.marker([0, 0]).addTo(MAPA_ISS);
 
 window.addEventListener('load', () => {
